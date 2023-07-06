@@ -1,0 +1,21 @@
+{
+  "name": "hortfruti",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type":"module" ,
+  "scripts": {
+    "dev": "tsx watch src/app.ts",
+    "build": "tsup src",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.12.0",
+    "dotenv": "^16.3.1",
+    "graphql": "^16.7.1",
+    "mongoose": "^7.3.1"
+  }
+}
